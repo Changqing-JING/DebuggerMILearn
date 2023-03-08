@@ -51,6 +51,6 @@ export class UnixDebugger extends DebuggerBase {
     }
 
 
-    private debugTargetStatus: ProgramStatus;
+
 
 }

@@ -11,7 +11,7 @@ Visual Studio, cmake, cdb
 #### On Unix
 ```shell
 cmake -B build -DCMAKE_BUILD_TYPE=Debug
-cmake --build ./build
+cmake --build ./build --config Debug
 ```
 #### On Windows
 ```shell
@@ -30,6 +30,6 @@ npm run build
 node ./out/index.js ./build/DebugTarget/DebugTarget
 ```
 #### On Windows
-```shell
-
+```batch
+node ./out/index.js build/DebugTarget/Debug/DebugTarget.exe
 ```
